@@ -50,7 +50,7 @@
     </section>
    </header>
     <main class="bg-stone-100 mt-10 w-full">
-        <section class="lg:flex justify-around">
+        <!-- <section class="lg:flex justify-around">
             <div class="pt-10 hidden lg:block">
                 <img src="./assets/Vector.png" alt=""> <br>
                 <div class="px-5">
@@ -85,7 +85,7 @@
             <div class="pt-10 p-4">
                 <img src="./assets/Rectangle.png" alt="">
             </div>
-        </section>
+        </section> -->
         <section>
             <div class="flex justify-center py-4 ">
                 <button class="btn btn-active bg-[#FFFFFF] rounded-3xl text-base font-semibold "><i class="fa-solid fa-arrow-right p-2 rounded-full" style="color: black;margin: auto ; " ></i>About Us</button>
@@ -147,7 +147,7 @@
                 <div class="flex flex-col pt-4 space-y-5 px-6 mb-4">
                   <h2 class="card-title">Commercial</h2>
                   <p>The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
-                  <h2 class=""><i class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 p-2 rounded-full"></i>View Details</h2>
+                  <h2 class=""><i class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 p-2 rounded-full mx-2"></i>View Details</h2>
                 </div>
               </div>
             </div>
@@ -178,13 +178,20 @@
               <div class="flex flex-col pt-4 space-y-2 px-6 mb-4">
                 <h2 class="card-title">Commercial</h2>
                 <p>The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
-                <h2 class=""><i class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 p-2 rounded-full"></i>View Details</h2>
+                <h2 class=""><i class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 p-2 rounded-full mx-2"></i>View Details</h2>
               </div>
             </div>
             <div class="card card-side bg-base-100 shadow-xl lg:w-[274px]">
               <figure class="mx-auto p-4 flex justify-center">
                 <img
                   src="./assets/img5.png" class="rounded-xl h-[180px] w-[400px] "
+                  alt="Movie" />
+              </figure>
+            </div>
+            <div class="card card-side bg-base-100 shadow-xl lg:w-[274px] block lg:hidden">
+              <figure class="mx-auto p-4 flex justify-center">
+                <img
+                  src="./assets/img3.png" class="rounded-xl h-[180px] w-[400px] "
                   alt="Movie" />
               </figure>
             </div>
@@ -214,15 +221,33 @@
            placeholder="Write your message here"
             class="textarea textarea-bordered textarea-lg w-[970px] h-[240px]"></textarea>
         </div>
-            <div class="flex justify-center pt-2 ">
+            <div class="flex justify-center pt-2 pb-4 ">
               <button class="btn btn-active bg-[#ABEF5F] text-2xl px-5  rounded-full lg:w-[970px] w-[327px]">Send Mail  <i class="fa-solid fa-arrow-right bg-black text-[##FFFFFF] -rotate-45 p-2 rounded-full" style="color: azure; " ></i></button>
             </div>
         </section>
             
 
     </main>
-    <footer>
-      
+    <footer class="bg-[#1C1C1C]">
+      <div class="flex space-x-4 justify-center mx-auto pt-4">
+        <i class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 p-2 rounded-full"></i>
+    <h2 class="text-3xl font-bold text-white">Rinterio</h2> 
+    </div>
+    <div class="text-center text-[#737373] mt-4">
+      The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+    </div>
+    <nav class=" text-[#E9E9E9] mt-4">
+      <ul class="grid lg:grid-cols-5 grid-cols-1 place-items-center lg:gap-0 gap-y-4">
+        <li>Home</li>
+        <li>Services</li>
+        <li>Portfolio</li>
+        <li>Blogs</li>
+        <li>Contact Us</li>
+      </ul>
+    </nav>
+    <div class="flex justify-center pt-4 pb-4">
+      <button class="btn btn-active bg-[#ABEF5F] text-2xl px-5  rounded-full ">Book Consult  <i class="fa-solid fa-arrow-right bg-black text-[##FFFFFF] -rotate-45 p-2 rounded-full" style="color: azure; " ></i></button>
+    </div>
     </footer>
     
 </body>
